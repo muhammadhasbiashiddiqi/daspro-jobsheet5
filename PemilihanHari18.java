@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 /**
  * PemilihanHari18
  */
 public class PemilihanHari18 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String dayName, dayTpe ;
@@ -21,7 +19,6 @@ public class PemilihanHari18 {
             case "sunday":
                  dayTpe = "weekend";
                 break;
-        
             default:
             dayTpe = "invalid day name";
                 break;
