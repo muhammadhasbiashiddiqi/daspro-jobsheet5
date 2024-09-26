@@ -24,5 +24,6 @@ public class PemilihanHari18 {
                 break;
         }
         System.out.println(dayName + " is a " + dayTpe );
+        return;
     }
 }
