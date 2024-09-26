@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 /**
  * SIAKAD18
  */
 public class SIAKAD18 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nama, nim, kualifikasi, huruf;
@@ -27,8 +25,6 @@ public class SIAKAD18 {
         System.out.println("masukkan nilai ujian :");
         nilaiujian = sc.nextDouble();
         double n = (nilaiujian+nilaikuis+nilaitugas)/3;
-        
-
         if (n <= 100 && n > 80) {
             huruf = "A";
             kualifikasi = "sangat baik";
@@ -53,11 +49,9 @@ public class SIAKAD18 {
             huruf = "D";
             kualifikasi = "kurang";
         }
-            
         else {
             huruf = "E";
             kualifikasi = "GAGAL";
-
     }
     System.out.println(" mahasiswa dengan nama  " + nama + "( NIM " + nim + " )" + " kelas " + kelas + " nomor absen " + absen);
         System.out.println("nilai akhir : " + n);
